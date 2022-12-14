@@ -10,7 +10,7 @@
 <body>
     <div id="app">
         <img v-bind:src="picture" 
-        v-bind:alt="firstName">
+        v-bind:alt="`${firstName} ${lastName}`">
         <h1>Hello {{firstName}} {{lastName}}</h1>
         <h3>Email: {{email}}</h3>
         <button>Get Rondom User</button>
