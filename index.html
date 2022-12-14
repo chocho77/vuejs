@@ -9,7 +9,8 @@
 </head>
 <body>
     <div id="app">
-        <img v-bind:src="picture" alt="">
+        <img v-bind:src="picture" 
+        v-bind:alt="firstName">
         <h1>Hello {{firstName}} {{lastName}}</h1>
         <h3>Email: {{email}}</h3>
         <button>Get Rondom User</button>
